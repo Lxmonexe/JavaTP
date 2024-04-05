@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0px;
+    
+}
+
+.enTete {
+    background-color: #eee;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+   
+    
+}
+
+.enTete a {
+    text-decoration: none;
+    color: #4691ff;
+    padding: 10px;
+}
+
+ .imageEnTete {
+    width: 200px;
+ }
+
+ .titreEnTete {
+    text-align: center;
+    font-size: 1.5em;
+ }
+
+ .presentation {
+    padding: 10px;
+    border-bottom: 1px;
+    text-align: justify;
+
+ }
+
+strong {color:#4691ff !important}
+ .videoPresentation {
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    padding: 10px;
+    color: #4691ff;
+    border-bottom: #4691ff 2px solid;
+}
+
+.actus {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.actus img {
+    width: 200px;
+    border-radius: 10px;
+    
+}
+ .actus h2 {
+    color: #555;
+    
+ }
+ 
+
+ .actus div {
+    flex-direction: column;
+    font-size: 0.7em;
+ }
+
+ .actus p{
+    text-align: justify;
+ }
+
+ footer{
+    background-color: #000;
+    text-align: center;
+    padding: 5px;
+    
+    color: #eee;
+ }
+
+ @media screen and (max-width: 900px) {
+    flex-direction .actus {
+        flex-direction: column;
+    }
+    font-size .enTete a {
+        font-size: 0.8em;
+    }
+    text-align h1 {
+        text-align: center;
+    }
+    width .videoPresentation {
+        width: 90%;
+    }
+}
