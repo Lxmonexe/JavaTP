@@ -51,7 +51,7 @@ public class HttpResponse {
             try {
                 ok();
                 output.write(("Content-Type: " + contentType + "\n\n").getBytes());
-                FileInputStream fileInputStream = new FileInputStream("D:\\TP2java\\src\\public\\"+filename);
+                FileInputStream fileInputStream = new FileInputStream("D:\\JavaTP\\TP2\\public\\"+filename);
                 byte[] buffer = new byte[4096];
                 int bytesRead = 0;
                 do {

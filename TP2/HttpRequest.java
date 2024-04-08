@@ -1,7 +1,5 @@
-
 import java.io.BufferedReader;
 import java.io.IOException;
-
 import java.io.InputStreamReader;
 
 
@@ -31,6 +29,7 @@ public class HttpRequest {
             httpMethod = requestLine.split(" ")[0];
         }
         String urlRequest = String.valueOf(0);
+
         if (requestLine != null) {
             urlRequest = requestLine.split(" ")[1];
         }
